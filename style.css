@@ -11,6 +11,9 @@
   border: solid 1px black;
   border-radius: 1rem;
 }
+.book > .delete {
+  align-self: end;
+}
 .book > .title {
   font-size: large;
   font-weight: 800;

@@ -21,3 +21,6 @@
 .book > .author {
   font-size: larger;
 }
+.book > .read {
+  align-self: end;
+}

@@ -1,10 +1,12 @@
 const myLibrary = []
 const addbook = document.querySelector('#addbook')
 
-function Book (title, author) {
-  this.title = title
-  this.author = author
-  this.read = false
+class Book {
+  constructor (title, author) {
+    this.title = title
+    this.author = author
+    this.read = false
+  }
 }
 
 function addBookToLibrary (event) {
